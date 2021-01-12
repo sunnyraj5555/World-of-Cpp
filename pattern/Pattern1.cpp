@@ -6,7 +6,7 @@ int main()
 		
 	// Print all Patterns using DOG Method
 	
-	int n;
+	int n;  //Created variable n for User
 	cin>>n;
 	
 	for (int i=1; i<=n; i++){
@@ -14,7 +14,7 @@ int main()
 		for (int j=1; j<=n; j++){
 			
 			if (j<=i)
-				cout <<"*";
+				cout <<"*";y
 			else
 				cout <<" ";
 		}
