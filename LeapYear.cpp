@@ -3,7 +3,18 @@ using namespace std;
 
 int main()
 {
-
+	int year;
+	cout << "Enter Year:" <<" ";
+	cin >> year;
+	
+	bool y = LeapYear(year);
+	
+	if (y == true)
+		cout << "leap Year";
+	else
+		cout <<"Not Leap Year";
+	
+	return 0;
 
 }
 
