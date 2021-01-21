@@ -7,9 +7,9 @@ int main()
 	cout << "Enter Year:" <<" ";
 	cin >> year;
 	
-	bool y = LeapYear(year);
+	bool y = LeapYear(year); //Declairing a var y of type bollean to compare it with LeapYear return type.
 	
-	if (y == true)
+	if (y == true) 
 		cout << "leap Year";
 	else
 		cout <<"Not Leap Year";
