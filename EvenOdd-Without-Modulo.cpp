@@ -4,7 +4,10 @@ using namespace std;
 
 int main()
 {
-
-
+		if(n&1)
+	cout <<"odd number";
+	else
+	cout <<"even number";
+	return 0;
 
 }
