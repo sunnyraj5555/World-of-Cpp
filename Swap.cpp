@@ -13,5 +13,13 @@ int main()
 
 	cout << "a="<<a <<endl<<"b="<< b <<endl;
 
+	int i=4;
+	int j=5;
 
+	j=i+j;
+	i=j-i;
+	j=j-i;
+
+	cout <<"i=" <<i <<endl <<"j=" <<j;
+	return 0;
 }
