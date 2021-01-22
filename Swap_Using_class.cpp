@@ -19,7 +19,17 @@ public:
 
 	}
 
-}
+	SwapM2(int i, int j)
+	{
+
+	j=i+j;
+	i=j-i;
+	j=j-i;
+
+	cout <<"i=" <<i <<endl <<"j=" <<j;
+	}
+
+};
 
 int main()
 {
