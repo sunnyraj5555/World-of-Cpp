@@ -33,6 +33,9 @@ public:
 
 int main()
 {
-
+	Swap S1,S2; 
+	S1.SwapM1(10,20);
+	S2.SwapM2(10,20);	
+	return 0;
 
 }
