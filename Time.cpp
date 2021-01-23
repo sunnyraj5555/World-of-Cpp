@@ -13,3 +13,8 @@ public:
 	void showTime();
 	void normalize();
 };
+
+void Time:: setTime(int x, int y,int z)
+	{
+		HR=x; MIN=y; SEC=z;
+	}
