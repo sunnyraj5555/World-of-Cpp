@@ -33,3 +33,10 @@ void Time:: showTime()
 		cout <<HR <<":" <<MIN <<":" <<SEC;	
 	}
 
+int main()
+{
+	Time t1;
+	t1.setTime(2,100,100);
+	t1.showTime();
+	t1.normalize();
+}
