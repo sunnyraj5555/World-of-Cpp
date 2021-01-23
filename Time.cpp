@@ -18,3 +18,9 @@ void Time:: setTime(int x, int y,int z)
 	{
 		HR=x; MIN=y; SEC=z;
 	}
+
+void Time:: showTime()
+	{
+		cout<< HR <<":" <<MIN <<":" <<SEC <<endl;
+	}
+
