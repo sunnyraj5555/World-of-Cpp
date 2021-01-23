@@ -24,3 +24,12 @@ void Time:: showTime()
 		cout<< HR <<":" <<MIN <<":" <<SEC <<endl;
 	}
 
+	void Time:: normalize()
+	{
+		MIN = MIN+(SEC/60);
+		SEC = SEC%60;
+		HR = HR+(MIN/60);
+		MIN = MIN%60;
+		cout <<HR <<":" <<MIN <<":" <<SEC;	
+	}
+
