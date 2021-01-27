@@ -25,3 +25,12 @@ book input()
 	cin >>b.bookid >>b.title >>b.price ;
 	return(b);
 }
+
+int main()
+{
+	book b1;
+	b1=input();
+	display(b1);
+
+	return 0;
+}
