@@ -16,3 +16,12 @@ class complex
     cout << "a=" <<a <<"b="<<b;
   }
 };
+
+int main()
+{
+	complex c1;
+	c1.set_data(4,5);
+	c1.show_data();
+
+	return 0;
+}
