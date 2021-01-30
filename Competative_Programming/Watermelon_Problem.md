@@ -13,18 +13,18 @@ tired and want to start their meal as soon as possible, that's why you should he
 them and find out, if they can divide the watermelon in the way they want. 
 For sure, each of them should get a part of positive weight.
 <hr>
-## **input**
+input <br />
 The first (and the only) input line contains integer number w (1 ≤ w ≤ 100) — the weight of<br />
 the watermelon bought by the boys.
 <hr>
-## **Output**
+Output <br />
 Print YES, if the boys can divide the watermelon into two parts, each of them weighing even <br /> number of kilos; and NO in the opposite case.
 <hr>
-## **Note**
+Note <br />
 For example, the boys can divide the watermelon into two parts of 2 and 6 kilos respectively <br />
 (another variant — two parts of 4 and 4 kilos).
 <hr>
 
-**Example**
-Input: 8
-output: YES
+Example <br />
+Input: 8 <br />
+output: YES <br />
