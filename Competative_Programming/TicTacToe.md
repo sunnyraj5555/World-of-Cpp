@@ -16,14 +16,14 @@ Input Contains two space separated characters denoting the players that will hav
 ## Output 
 
 If the game is draw print D., else print the first letter of the name of the player who wins in capital. 
-
+<hr>
 **Example**
  
-**Sample input 1:**  B J 
-**Sample Output 1:** B 
+**Sample input 1:**  B J <br />
+**Sample Output 1:** B <br />
 
-**Sample input 2:**  R S 
-**Sample Output 2:** R
+**Sample input 2:**  R S <br />
+**Sample Output 2:** R<br />
 
-**Sample input 3:**  B M 
-**Sample Output 3:** D
+**Sample input 3:**  B M <br />
+**Sample Output 3:** D<br />
