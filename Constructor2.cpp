@@ -14,5 +14,13 @@ class Complex
 		cout <<"a="<< a <<"b=" <<b <<endl;
 	}
 
-
+	Complex(int k)  //Parametrise constructor
+	{ a=k;
+		cout <<"a="<< a << endl;
+	}
+	
+	Complex()  // Default Constructor
+	{ a=0; b=0; 
+		cout <<"a="<< a <<"b=" <<b <<endl;
+	}
 };
