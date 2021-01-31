@@ -31,3 +31,12 @@ class Complex
 		cout <<"a="<< a <<"b=" <<b <<endl;
 	}
 };
+
+int main()
+{
+	Complex c1(3,4),c2(5),c3,c4(6,7); 
+	Complex c8(c1);
+	Complex c9=c4;
+	
+	return 0;
+}
