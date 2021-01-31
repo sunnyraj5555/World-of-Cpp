@@ -23,4 +23,11 @@ class Complex
 	{ a=0; b=0; 
 		cout <<"a="<< a <<"b=" <<b <<endl;
 	}
+
+	Complex(Complex &c) //Copy Constructor
+	{
+		a=c.a;
+		b=c.b;
+		cout <<"a="<< a <<"b=" <<b <<endl;
+	}
 };
